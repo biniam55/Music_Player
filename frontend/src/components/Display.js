@@ -9,8 +9,8 @@ import {
 } from "./styles/Display.style";
 import Controls from "./Controls";
 import { useDispatch, useSelector } from "react-redux";
-import WaveAnimation from "./WaveAnimation";
-import ProgressCircle from "./ProgressCircle";
+import WaveAnimation from "./Animation";
+import ProgressCircle from "./Progress";
 import image from "../assets/images.jpeg";
 import SongCard from "./songCard";
 import Queue from "./queue";
