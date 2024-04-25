@@ -23,7 +23,7 @@ const handleErrors = (error) => {
     return errors;
   };
 
-
+// multer
   const storage = multer.diskStorage({
     destination: "./public/uploads/",
     filename: (req, file, cb) => {
