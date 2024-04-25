@@ -3,7 +3,7 @@ import React from "react";
 import { IconContext } from "react-icons";
 import { FaPause } from "react-icons/fa";
 import { IoPlaySkipBack, IoPlaySkipForward, IoPlay } from "react-icons/io5";
-import { ActionButton, ControlsWrapper, PlayPauseButton } from "./styles/WaveAnimation.style";
+import { ActionButton, ControlsWrapper, PlayPauseButton } from "./styles/Animation.style";
 
 export default function Controls({
   isPlaying,

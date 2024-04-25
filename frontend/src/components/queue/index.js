@@ -5,7 +5,7 @@ import {
   List,
   ListButton,
   SongListStyle,
-} from "../styles/SongListStyle.style";
+} from "../styles/SongList.style";
 import { RiDeleteBin5Line } from "react-icons/ri";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -21,7 +21,7 @@ import {
   SongQuee,
   UploadButton,
   UploadContainer,
-} from "../styles/FileUpload.style";
+} from "../styles/Upload.style";
 
 export default function Queue() {
   const [clicked, setClicked] = useState(false);

@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, BoxContainer } from "./styles/WaveAnimation.style";
+import { Box, BoxContainer } from "./styles/Animation.style";
 
 export default function WaveAnimation({ isPlaying }) {
   const waveClass = isPlaying ? "box active" : "box";

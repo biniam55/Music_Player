@@ -1,5 +1,5 @@
 import React from 'react'
-import { ContentContainer, MainContainer } from './styles/MainContainer.style'
+import { ContentContainer, MainContainer } from './styles/Container.style'
 import DisplaySong from './DisplaySong'
 import Sidebar from './Sidebar'
 

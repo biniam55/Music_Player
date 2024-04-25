@@ -1,5 +1,5 @@
 import React from "react";
-import { ActiveImage, Circlee } from "./styles/ProgressCircle.style";
+import { ActiveImage, Circlee } from "./styles/Progress.style";
 const Circle = ({ color, percentage, size, strokeWidth }) => {
   const radius = size / 2 - 10;
   const circ = 2 * Math.PI * radius - 20;

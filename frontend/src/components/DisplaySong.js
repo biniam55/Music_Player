@@ -6,7 +6,7 @@ import {
   Progress,
   Next,
   Wave,
-} from "./styles/DisplaySong.style";
+} from "./styles/Display.style";
 import Controls from "./Controls";
 import { useDispatch, useSelector } from "react-redux";
 import WaveAnimation from "./WaveAnimation";
@@ -14,7 +14,7 @@ import ProgressCircle from "./ProgressCircle";
 import image from "../assets/images.jpeg";
 import SongCard from "./songCard";
 import Queue from "./queue";
-import { Duration, SongDuration } from "./styles/WaveAnimation.style";
+import { Duration, SongDuration } from "./styles/Animation.style";
 function DisplaySong() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [trackProgress, setTrackProgress] = useState(0);

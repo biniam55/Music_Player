@@ -1,6 +1,6 @@
 import React from "react";
 import image from '../assets/images.jpeg'
-import { SidebarContainer, Sidebarimage } from "./styles/MainContainer.style";
+import { SidebarContainer, Sidebarimage } from "./styles/Container.style";
 
 export default function Sidebar() {
   return (

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { AlbumInfoo, ArtistHolder, EditSong, Ptag } from "../styles/DisplaySong.style";
-import { ArtistEditInput } from "../styles/FileUpload.style";
+import { AlbumInfoo, ArtistHolder, EditSong, Ptag } from "../styles/Display.style";
+import { ArtistEditInput } from "../styles/Upload.style";
 import { FaRegEdit } from "react-icons/fa";
 import { UPDATE_SONG } from "../ReduxSaga/Types/Constants";
-import { AlbumInfoCard, AlbumNameContainer, Marquee } from "../styles/PlayingNow.style";
+import { AlbumInfoCard, AlbumNameContainer, Marquee } from "../styles/Playing.style";
 
 export default function AlbumInfo({ album }) {
   const currentMusic = useSelector((state) => state.Songs.currentSong);

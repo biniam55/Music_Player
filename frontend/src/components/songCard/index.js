@@ -1,6 +1,6 @@
 import React from "react";
 import AlbumInfo from "./albumInfo";
-import { SongCardBody } from "../styles/PlayingNow.style";
+import { SongCardBody } from "../styles/Playing.style";
 
 
 export default function SongCard({ album }) {
