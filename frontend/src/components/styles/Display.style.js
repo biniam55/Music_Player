@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const DisplayScreen = styled.div`
   width: 100%;
-  height: 100vh;
+  height: auto;
   background-color: #1e2a3e;
   background-image: repeating-radial-gradient(
       circle at center left,
@@ -104,6 +104,9 @@ export const AudioPlayer = styled.audio`
 export const Next = styled.div`
   display: flex;
   flex-direction: row;
+  /* @media (max-width: 786px) {
+    overflow-y: scroll;
+  } */
 `;
 export const Wave = styled.div`
   display: flex;

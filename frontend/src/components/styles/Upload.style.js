@@ -18,9 +18,12 @@ export const QueueContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  @media (max-width: 786px) {
-    display: none;
-  }
+  /* @media (max-width: 786px) {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 250px;
+   
+  } */
   `;
   export const SongQuee = styled.h3`
   color: #fff;
