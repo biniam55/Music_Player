@@ -4,7 +4,8 @@
   "description": "This is the server side code for addis software intern project ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "biniam",
   "license": "ISC",
