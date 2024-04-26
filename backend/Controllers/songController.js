@@ -25,7 +25,7 @@ const handleErrors = (error) => {
 
 // multer
   const storage = multer.diskStorage({
-    destination: "../frontend/public/uploads/",
+    destination: "./public/uploads/",
     filename: (req, file, cb) => {
       cb(null, file.originalname);
     },
