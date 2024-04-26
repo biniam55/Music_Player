@@ -12,9 +12,10 @@ import { useDispatch, useSelector } from "react-redux";
 import WaveAnimation from "./Animation";
 import ProgressCircle from "./Progress";
 import image from "../assets/images.jpeg";
-import SongCard from "./songCard";
 import Queue from "./queue";
 import { Duration, SongDuration } from "./styles/Animation.style";
+import AlbumInfo from "./songCard/albumInfo";
+import { SongCardBody } from "./styles/Playing.style";
 function DisplaySong() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [trackProgress, setTrackProgress] = useState(0);
@@ -81,7 +82,10 @@ function DisplaySong() {
             color="#C96850"
           />
           <div>
-            <SongCard />
+          <SongCardBody>
+          {/* this is the component for the song card */}
+            <AlbumInfo />
+          </SongCardBody>
           </div>
         </Progress>
         
@@ -104,7 +108,6 @@ function DisplaySong() {
               <Controls
                 isPlaying={isPlaying}
                 setIsPlaying={setIsPlaying}
-                // You can implement next and previous handlers
               />
             </Wave>
             <Queue />

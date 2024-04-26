@@ -141,7 +141,7 @@ position: relative;
   margin-left: 50px;
   
   color: white;
-  background-color: palevioletred;
+  background-color: #ff8769;
 `;
 export const Ptag = styled.span`
 color:white;

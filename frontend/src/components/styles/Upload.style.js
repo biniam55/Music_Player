@@ -98,6 +98,6 @@ export const ArtistInput = styled(FileInput)`
   cursor: text;
 `
 export const ArtistEditInput = styled(ArtistInput)`
-background-color: #2BAE66;
+background-color: #1e2a3e;
   color: white;
 `
