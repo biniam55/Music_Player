@@ -1,10 +1,10 @@
 import axios from "axios";
 
 export const getSongAPI = async () =>
-  await axios.get("https://music-player-final.onrender.com/getSongs");
+  await axios.get("http://localhost:5500/getSongs");
 export const postSongAPI = async (sendFile) => {
   const data = await axios.post(
-    "https://music-player-final.onrender.com/addSongs",
+    "http://localhost:5500/addSongs",
     sendFile
   );
   // console.log(data)
@@ -12,13 +12,13 @@ export const postSongAPI = async (sendFile) => {
 };
 export const deleteSongAPI = async (id) => {
   const data = await axios.delete(
-    "https://music-player-final.onrender.com/deleteSong/" + id
+    "http://localhost:5500/deleteSong/" + id
   );
   return data;
 };
 export const updateSongAPI = async (id, artist) => {
   const data = axios.patch(
-    "https://music-player-final.onrender.com/updateSongs/" + id,
+    "http://localhost:5500/updateSongs/" + id,
     artist
   );
   return data;
