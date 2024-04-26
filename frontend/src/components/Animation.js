@@ -5,6 +5,7 @@ export default function WaveAnimation({ isPlaying }) {
   const waveClass = isPlaying ? "box active" : "box";
 
   return (
+    // <BoxContainer>
     <BoxContainer>
       <Box className={`${waveClass} box1`}></Box>
       <Box className={`${waveClass} box2`}></Box>
