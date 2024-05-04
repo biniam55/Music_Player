@@ -8,7 +8,7 @@ import {
   Wave,
 } from "./styles/Display.style";
 import Controls from "./Controls";
-import { useDispatch, useSelector } from "react-redux";
+import {  useSelector } from "react-redux";
 import WaveAnimation from "./Animation";
 import ProgressCircle from "./Progress";
 import image from "../assets/images.jpeg";
@@ -23,7 +23,6 @@ function DisplaySong() {
   const audioRef = useRef(null);
 
   const currentMusic = useSelector((state) => state.Songs.currentSong);
-  // const dispatch = useDispatch();
 
   useEffect(() => {
     const audioElement = audioRef.current;
@@ -72,7 +71,6 @@ function DisplaySong() {
     <DisplayScreen>
       <DispContainer>
         <h2>Playing Now</h2>
-        {/* <Image src="https://picsum.photos/200/200" /> */}
         <Progress>
           <ProgressCircle
             percentage={currentPercentage}
@@ -92,7 +90,7 @@ function DisplaySong() {
         <div>
           <AudioPlayer
             ref={audioRef}
-            src={`http://localhost:5500/uploads/${currentMusic.song}`} // Source of audio
+            src={`https://music-player-final.onrender.com/uploads/${currentMusic.song}`} // Source of audio
             autoPlay={isPlaying} // Control auto-play based on `isPlaying`
           ></AudioPlayer>
 

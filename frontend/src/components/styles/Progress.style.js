@@ -7,13 +7,13 @@ const rotation = keyframes`
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(359deg);
+    transform: rotate(360deg);
   }
 `;
 
 // Create a styled component for the circle
 export const Circlee = styled.circle`
-  transition: all 1s ease-in-out;
+  /* transition: all 1s ease-in-out; */
   transform: rotate(93deg);
   transform-origin: 50% 50%;
 `;
